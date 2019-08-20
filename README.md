@@ -1,3 +1,8 @@
+<a href="https://githubsfdeploy.herokuapp.com?owner=ak-com-dev&repo=record-hunter-sfdx">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
+</a>
+
 # SFDX App
 Record Hunter is a bundle of Lighting components to searching Salesforce records with conditions, filter records by locations, and show the reult with a datatable.
 It is also available as a managed package on AppExchange and this is the full source code of it.
