@@ -48,7 +48,7 @@
             </aura:if>
 
             <!-- Data Table -->
-            <c:DataTableWithoutFlow aura:id="datatable" objectName="{!v.objectName}" fieldNames="{!v.fieldNames}" height="{!v.height}" pageSize="{!v.pageSize}" true="{!v.trueValue}" false="{!v.falseValue}" hideCheckboxColumn="{!empty(v.flows)}"></c:DataTable>
+            <c:DataTableWithoutFlow aura:id="datatable" objectName="{!v.objectName}" fieldNames="{!v.fieldNames}" height="{!v.height}" pageSize="{!v.pageSize}" true="{!v.trueValue}" false="{!v.falseValue}" hideCheckboxColumn="{!empty(v.flows)}"></c:DataTableWithoutFlow>
             <!-- /Data Table  -->
         </lightning:card>
 
